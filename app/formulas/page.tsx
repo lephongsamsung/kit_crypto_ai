@@ -555,7 +555,7 @@ export default function FormulasPage() {
 
         {/* Save Button */}
         <div className="flex justify-center lg:justify-end mt-6">
-          <Button size="sm" lg:size="lg" className="w-full lg:w-auto">
+          <Button size="sm" className="w-full lg:w-auto">
             <Save className="h-4 w-4 mr-2" />
             {t.formulas.saveFormula}
           </Button>
